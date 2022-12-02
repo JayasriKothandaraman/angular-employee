@@ -1,0 +1,23 @@
+<p>retrieve works!</p>
+<section class="main">
+    <table class="table">
+     <thead>
+     <tr>
+     <th>#</th>
+     <th>First Name</th>
+     <th>Phone No</th>
+     <th>Email</th>
+     <th></th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr *ngFor="let employee of employees">
+     <th scope="row">{{employee.id}}</th>
+     <td>{{employee.firstName}}</td>
+     <td>{{employee.phoneNo}}</td>
+     <td>{{employee.email}}</td>
+     
+     </tr>
+    </tbody>
+     </table>
+     </section>
